@@ -1,0 +1,8 @@
+{
+  "name": "Gordylez Tech DIY",
+  "description": "Modern technology & DIY platform specializing in solar generators, LiFePO4 battery builds, inverters, electronics engineering, and hands-on tutorials.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "admins": [],
+  "visitors": [
+    {
+      "id": "vis-5273a70f7aa03ee9",
+      "email": "visitor@example.com",
+      "name": "Test Visitor",
+      "passwordHash": "a65513d867790e51eb81e8d9342038d562120972692f0f5a34219264884d6b1b8ab758e4202d1cea384134c52cf0f934a02594beaf6833b9e03cff6d6486d758",
+      "salt": "0528dbad0d28e998ebe1d048dd2ffdf0",
+      "createdAt": "2026-09-06T19:36:17.709Z",
+      "lastLogin": "2026-09-06T19:36:17.709Z"
+    }
+  ],
+  "sessions": [
+    {
+      "token": "5fd068fa62d44a4d0ba07d97dc0bce66897da45455903d0d9d0613c39b1d0746",
+      "userId": "vis-5273a70f7aa03ee9",
+      "role": "visitor",
+      "createdAt": "2026-09-06T19:36:17.709Z",
+      "expiresAt": "2026-09-20T19:36:17.709Z"
+    }
+  ],
+  "inquiries": [
+    {
+      "id": "inq-001",
+      "name": "Chinedu Eze",
+      "email": "chinedu.eze@example.com",
+      "phone": "+234 803 123 4567",
+      "projectCategory": "battery",
+      "systemVoltage": "48V",
+      "estimatedBudget": "850,000 NGN",
+      "message": "Looking to build a 48V 16S 280Ah EVE LiFePO4 battery pack with JK Smart BMS 2A active balancer. Need guidance on compression jig design and busbar sizing.",
+      "status": "new",
+      "createdAt": "2026-09-05T19:36:01.234Z"
+    },
+    {
+      "id": "inq-002",
+      "name": "Dr. Michael Okafor",
+      "email": "m.okafor@clinicenergy.ng",
+      "phone": "+234 802 987 6543",
+      "projectCategory": "solar-gen",
+      "systemVoltage": "24V",
+      "estimatedBudget": "1,400,000 NGN",
+      "message": "Need a mobile rugged 2.5kVA hybrid solar cart for our rural clinic laboratory to power vaccine fridges and centrifuges during grid outages.",
+      "status": "in-progress",
+      "createdAt": "2026-09-03T19:36:01.234Z"
+    }
+  ]
+}
